@@ -1,0 +1,32 @@
+mkdir 20230605-GladysSarmiento
+cd 20230605-GladysSarmiento
+git init
+git remote add origin ruta_repositorio_remoto 
+git remote -V
+mkdir comandos.txt main.jse index.html
+git add .
+git commit -m "commit 01 de GladysSarmiento"
+git branch -M maingit push origin main
+
+git branch feature01
+git checkout feature01
+mkdir Terminal Hardware
+touch Terminal/resumen.txt Hardware/resumen.txt
+git add .
+git commit -m "commit 02 de GladysSarmiento"
+git push origin feature01
+
+git branch feature02
+git checkout feature02
+Modifique los archivos en VSC
+ 
+
+  506  git log --oneline
+  507  git add .
+  508  git commit -m "commit 03 GladysSarmiento"
+  509  git push origin feature02
+  510  git checkout main
+  511  git log --oneline
+  512  ls -l
+513  mv comandos.txt comandosUtilizados.txt
+mv comandos.txt comandosUtilizados.txt

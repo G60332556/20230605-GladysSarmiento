@@ -1,0 +1,7 @@
+mkdir nombredirectorio 
+ls -a  
+ls -R
+cp
+mv
+find
+rm

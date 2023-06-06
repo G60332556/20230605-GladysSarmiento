@@ -1,0 +1,4 @@
+Procesador
+Memoria RAM
+Memoria ROM
+Placa Madre
